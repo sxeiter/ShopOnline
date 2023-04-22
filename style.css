@@ -1,3 +1,7 @@
+*{ 
+    box-sizing: border-box;
+}
+
 body {
     font-family: 
     system-ui, 
@@ -11,39 +15,25 @@ body {
     'Open Sans', 
     'Helvetica Neue', 
     sans-serif;
-    padding: 80px;
+    font-size: 22px;
+    line-height: 33px;
+    padding-left: 75px;
 }
 
 .wrapper {
     max-width: 1920px;
     font-size: 22px;
     line-height: 36px;
+    padding: 0 30px;
 }
 
 .content {
     max-width: 1095px;
 }
 
-h1 {
-    width: 870px;
-    height: 54px;
-    font-size: 50px;
-    line-height: 65px;
-    color: #2d2d2d;
-    font-weight: bold;
-    font-family: "Arial"; 
-}
-
-h2 {
-    margin-bottom: -16px;
-}
-
-ol {
-    list-style-position: outside;
-}
-
-p {
-    font-size: 24px;
+h2, p, h3, h1 {
+    margin: 0;
+    margin-bottom: 33px;
 }
 
 a {
@@ -52,14 +42,11 @@ a {
     font-size: 16px;
 }
 
-img {
-    width: 1098px;
-    height: 566px;
+.section {
+    margin-bottom: 33px;
 }
 
-.h-care {
+.care {
     font-weight: 400;
+    margin-bottom: 0;
 }
-
-
-
