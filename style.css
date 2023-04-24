@@ -16,8 +16,12 @@ body {
     'Helvetica Neue', 
     sans-serif;
     font-size: 22px;
-    line-height: 33px;
-    padding-left: 75px;
+
+}
+
+.navy {
+    padding: 0 25px;
+    margin: 0;
 }
 
 .wrapper {
@@ -25,15 +29,12 @@ body {
     font-size: 22px;
     line-height: 36px;
     padding: 0 30px;
+    margin: 0 auto;
 }
 
 .content {
     max-width: 1095px;
-}
 
-h2, p, h3, h1 {
-    margin: 0;
-    margin-bottom: 33px;
 }
 
 a {
@@ -49,4 +50,8 @@ a {
 .care {
     font-weight: 400;
     margin-bottom: 0;
+}
+
+.look-before, .care, .paragraph {
+    margin: 0;
 }
