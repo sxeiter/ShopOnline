@@ -16,7 +16,15 @@ body {
     'Helvetica Neue', 
     sans-serif;
     font-size: 22px;
+    color: #525252;
+}
 
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.nav {
+    padding: 17px 0 50px;
 }
 
 .navy {
@@ -24,26 +32,42 @@ body {
     margin: 0;
 }
 
+.img {
+    margin-bottom: 50px;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .wrapper {
     max-width: 1920px;
-    font-size: 22px;
-    line-height: 36px;
-    padding: 0 30px;
+    padding: 100px 30px;
     margin: 0 auto;
 }
 
 .content {
     max-width: 1095px;
-
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-    font-size: 16px;
+.title {
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 
-.section {
+.sub-title {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 700;
+    font-family: "Arial";
+}
+
+.section:not(:last-child) {
     margin-bottom: 33px;
 }
 
@@ -52,6 +76,6 @@ a {
     margin-bottom: 0;
 }
 
-.look-before, .care, .paragraph {
-    margin: 0;
+.paragraph:not(:last-child) {
+    margin-bottom: 33px;
 }
