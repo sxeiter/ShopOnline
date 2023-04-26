@@ -1,9 +1,23 @@
+@font-face {
+    font-family: 'lato-bold';
+    src: url(/fonts/lato-bold.woff) format("woff"),
+        url(/fonts/lato-bold.woff2) format("woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'lato-regular';
+    src: url(/fonts/lato-regular.woff) format("woff"),
+        url(/fonts/lato-regular.woff2) format("woff2");
+    font-weight: 400;
+}
+
 *{ 
     box-sizing: border-box;
 }
 
 body {
-    font-family: 
+    /*font-family: 
     system-ui, 
     -apple-system, 
     BlinkMacSystemFont, 
@@ -14,7 +28,8 @@ body {
     Cantarell, 
     'Open Sans', 
     'Helvetica Neue', 
-    sans-serif;
+    sans-serif;*/
+    font-family: 'lato-regular';
     font-size: 22px;
     color: #525252;
 }
