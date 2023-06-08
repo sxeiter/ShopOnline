@@ -1,0 +1,10 @@
+.shoes-cream {}
+
+.shoes-cream__paragraph:not(:last-child) {
+    margin-bottom: 33px;
+}
+
+.shoes-cream__title {
+    font-weight: 400;
+    margin-bottom: 0;
+}

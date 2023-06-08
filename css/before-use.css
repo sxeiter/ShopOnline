@@ -1,0 +1,12 @@
+.before-use {}
+
+.before-use__paragraph:not(:last-child) {
+    margin-bottom: 33px;
+}
+
+.before-use__title {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 700;
+    font-family: "Arial";
+}
